@@ -1,0 +1,10 @@
+h1.title {
+    font-size: 50px;
+    text-align: center;
+    color:#7FFFD4;
+}
+
+div.navbar {
+    font-size: larger;
+    text-align: right;
+}
