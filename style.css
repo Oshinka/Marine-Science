@@ -1,10 +1,21 @@
-h1.title {
+.title {
     font-size: 50px;
     text-align: center;
     color:#7FFFD4;
 }
 
-div.navbar {
+.navbar {
     font-size: larger;
     text-align: right;
+}
+
+.sideMainTitle {
+    font-size: 40px;
+    color: #7FFFD4;
+}
+
+.subTitle {
+    font-size: 50px;
+    text-align: center;
+    color: #00FFFF;
 }
