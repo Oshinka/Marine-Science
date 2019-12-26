@@ -12,10 +12,18 @@ header {
 }
 
 nav {
+    display: flex; 
+    justify-content: flex-end;
     font-size: larger;
-    float: right;
-    margin: 15px;
-    color: #808080;
+    background-color: #E0FFFF;
+    margin: 5px;
+}
+
+nav a {
+    padding: 15px 25px;
+    text-decoration-color: #00BFFF;
+    text-decoration-line: none;
+    font-weight: bold;
 }
 
 section {
@@ -28,6 +36,33 @@ section {
     font-size: 50px;
     text-align: center;
     color: #00FFFF;
+    margin-top: 0px;
+}
+
+.box {
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    background-color: #DCDCDC;
+    margin: 50px;
+
+}
+
+.innerBox {
+    height: 400px;
+    width: 500px;
+    background-color: #FFF8DC;
+}
+
+.imageLabel {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.firstPageVideo {
+    display: flex; 
+    justify-content: flex-end;
 }
 
 footer {
