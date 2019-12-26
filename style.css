@@ -1,10 +1,37 @@
-h1.title {
-    font-size: 50px;
-    text-align: center;
-    color:#7FFFD4;
+header {
+    background-image: url('./images/cover.png');
+    height: 10%;
+    margin: 5px;
 }
 
-div.navbar {
+.title {
+    font-size: 50px;
+    text-align: left;
+    padding: 15px 15px 15px 50px;
+    color:#F0F8FF;
+}
+
+nav {
     font-size: larger;
-    text-align: right;
+    float: right;
+    margin: 15px;
+    color: #808080;
+}
+
+section {
+    height: 85%;
+    scroll-behavior: auto;
+    padding: 15px;
+}
+
+.subTitle {
+    font-size: 50px;
+    text-align: center;
+    color: #00FFFF;
+}
+
+footer {
+    background-image: url('./images/cover.png');
+    height: 5%;
+    clear: both;
 }
