@@ -26,6 +26,10 @@ nav a {
     font-weight: bold;
 }
 
+nav a:hover {
+    background-color: #AFEEEE;
+}
+
 section {
     height: 85%;
     scroll-behavior: auto;
